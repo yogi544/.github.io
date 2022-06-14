@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 
 
@@ -35,6 +36,24 @@ ol, ul {
 
 blockquote, q {
 	quotes: none;
+}
+
+.myName{
+	font-size: 50px;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.desc{
+	font-family: 'Caveat', cursive;
+font-size: 35px;
+color: #88662f;
+}
+
+.project-name:hover {
+	transform: scale(1.5);
+
+
 }
 
 	blockquote:before, blockquote:after, q:before, q:after {
